@@ -231,3 +231,69 @@ section h1.title
     }
 }
 
+/*Physiotherapist section**/
+.physiotherapist{
+    background-color: white;
+}
+
+.physiotherapist {
+    height: 50vw;
+    margin-top: 1vw;
+}
+
+.physiotherapist .right{
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.physiotherapist .right img{
+    margin-right: 10vw;
+    margin-left: 12vw;
+    height: 30vw;
+}
+
+.physiotherapist .left{
+
+    display: flex;
+    align-items: center;
+    color: black;
+    min-width: 45%;
+    margin-left: 2vw;
+    margin-right: 0vw;
+}
+
+.physiotherapist .left .title{
+
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+.physiotherapist .left p{
+    margin: 1.5vw 0px;
+    font-size: 1.8vw;
+}
+
+.physiotherapist .left a{
+    background-color: #003A79;
+    color: white;
+    padding: 1.2vw 12vw;
+    border-style: none;
+    border-radius: 0.3vw;
+    font-size: 1.8vw;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+#physiotherapist-services {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#physiotherapist-services p {
+    font-size: 1.8vw;
+}
+
