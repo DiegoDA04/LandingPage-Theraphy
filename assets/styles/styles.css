@@ -74,3 +74,95 @@ header {
     max-width: 35vw;
 }
 
+/*Services Section*/
+#patient-services {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#patient-services p {
+    font-size: 1.8vw;
+}
+
+.feature-title {
+    text-align: left;
+    margin-left: 0vw;
+}
+
+
+h2
+{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+section h1.title
+{
+
+    text-transform: capitalize;
+    font: bold 40px 'Archivo';
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    color: #3C5BA9;
+}
+
+.services {
+    height: 100%;
+    display: flex;
+    margin-right: 48px;
+    margin-left: 48px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.services h2{
+    font-size: 32px;
+    color: #3C5BA9;
+}
+
+
+.services h3{
+    font-size: 2.8vw;
+    margin-bottom: 12px;
+    font-weight:bold;
+    color: #3C5BA9;
+}
+.feature1-image img{
+    margin-right: 7vw;
+    margin-left: 3.5vw;
+    height:25vw
+}
+.feature-text{
+    text-align: left;
+}
+
+.feature-services-begin {
+    margin-top: 1.8vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+.feature-services-begin-rigth {
+    margin-right: 10vw;
+    margin-left: 3.5vw;
+}
+
+.feature1-services {
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+}
+.feature2-services {
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 3.1vw;
+}
+
+.feature2-image img{
+    margin-right: 3vw;
+    margin-left: 10vw;
+    height:25vw
+}
