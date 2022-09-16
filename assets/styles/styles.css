@@ -297,3 +297,125 @@ section h1.title
     font-size: 1.8vw;
 }
 
+/*Testimonials*/
+
+#testimonials h1 {
+    text-transform: capitalize;
+    font: bold 40px 'Archivo';
+    font-family: ibm-plex-sans, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 5vw;
+    color: white;
+}
+
+#testimonials {
+    background-color: #3C5BA9;
+    height: 650px;
+}
+#testcards {
+
+    box-sizing: border-box;
+    font-family: ibm-plex-sans, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slide-container{
+    width: 40vw;
+    height: 40vw;
+
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card{
+    border-radius: 25px;
+    background-color: #FFF;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 20px;
+    color: #707070;
+    text-align: center;
+}
+
+.swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 15px;
+    }
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}
