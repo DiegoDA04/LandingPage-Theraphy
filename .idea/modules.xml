@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/Projects2.iml" filepath="$PROJECT_DIR$/.idea/Projects2.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/LandingPage-Theraphy.iml" filepath="$PROJECT_DIR$/.idea/LandingPage-Theraphy.iml" />
->>>>>>> 7be6ae84fdfb04d547eca4bc21d1ddd0511a0996
+      <module fileurl="file://$PROJECT_DIR$/.idea/LANDING PAGE-THERAPHY.iml" filepath="$PROJECT_DIR$/.idea/LANDING PAGE-THERAPHY.iml" />
     </modules>
   </component>
 </project>
