@@ -34,7 +34,7 @@ navItem4.addEventListener("click", () => {
 
 function yousendit(){
     if(document.getElementById('yousendit').checked){
-        window.location='https://digitalholics-3-0.github.io/index-spanish.html';
+        window.location='https://digitalholics-3-0.github.io/LandingPage-Theraphy/index-spanish.html';
         return false;
     }
     return true;
@@ -43,7 +43,7 @@ function yousendit(){
 
 function yousendit2(){
     if(document.getElementById('yousendit2').checked){
-        window.location='https://digitalholics-3-0.github.io/index.html';
+        window.location='https://digitalholics-3-0.github.io/LandingPage-Theraphy/index.html';
         return false;
     }
     return true;
