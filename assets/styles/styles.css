@@ -723,18 +723,63 @@ section h1.title
     margin-bottom: 25px;
 }
 
+#about-team img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: -2px 9px 13px -1px rgba(0,0,0,0.81);
+    -webkit-box-shadow: -2px 9px 13px -1px rgba(0,0,0,0.81);
+    -moz-box-shadow: -2px 9px 13px -1px rgba(0,0,0,0.81);
+}
+
+
+#about-team .team-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h3
+{
+    text-align: center;
+    color: #3C5BA9;
+}
+
+.team-photos{
+}
+.team-photos_top{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.team-photos_bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
 #about-team iframe {
     align-items: center;
     align-self: center;
     align-content: center;
-    margin-left: 28%;
+    margin-left: 8%;
     margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 @media (max-width: 800px) and (min-width:200px) {
+
+    #about-team .team-div{
+        display: flex;
+        flex-direction: column;
+    }
     #about-team iframe {
         height: 150px;
-        width: 200px;
+        width: 300px;
+        margin-top: 25px;
     }
 }
 @media (max-width: 1300px) and (min-width:800px) {

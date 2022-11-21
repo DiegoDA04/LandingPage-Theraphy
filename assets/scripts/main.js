@@ -30,3 +30,22 @@ navItem3.addEventListener("click", () => {
 navItem4.addEventListener("click", () => {
     navMenu.classList.remove("nav-menu_visible");
 });
+
+
+function yousendit(){
+    if(document.getElementById('yousendit').checked){
+        window.location='https://digitalholics-3-0.github.io/LandingPage-Theraphy/index-spanish.html';
+        return false;
+    }
+    return true;
+
+}
+
+function yousendit2(){
+    if(document.getElementById('yousendit2').checked){
+        window.location='https://digitalholics-3-0.github.io/LandingPage-Theraphy/index.html';
+        return false;
+    }
+    return true;
+
+}
